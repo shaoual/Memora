@@ -306,12 +306,12 @@ export default function MemoraLanding() {
       >
         <div className="section__content section__content--right">
           <span className="section__supertitle section__supertitle--green">
-            GÉNÉRATEUR D&apos;ITINÉRAIRES
+            CARNET INTIME
           </span>
           <h2 className="section__title">
-            Planifiez votre
+            Un espace personnel
             <br />
-            prochaine aventure
+            pour préserver vos souvenirs
           </h2>
         </div>
       </section>
@@ -324,14 +324,13 @@ export default function MemoraLanding() {
       >
         <div className="section__content section__content--right">
           <span className="section__supertitle section__supertitle--green">
-            APERÇU DU VOYAGE
+            CARTE DES SOUVENIRS
           </span>
           <h2 className="section__title">
-            Ajoutez vos
+            Visualisez votre parcours, trace
             <br />
-            hébergements
+            après trace
             <br />
-            et activités
           </h2>
         </div>
       </section>
@@ -364,16 +363,20 @@ export default function MemoraLanding() {
       >
         <div className="section__content section__content--left">
           <span className="section__supertitle section__supertitle--red">
-            PAYS VISITÉS
+            CONSEILS VÉCUS
           </span>
           <h2 className="section__title">
-            Suivez l&apos;évolution de
+            Partagez ce que vous avez vraiment vécu
             <br />
-            vos stats de voyage
           </h2>
         </div>
       </section>
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       {/* Section Revivez */}
       <section
         id="revivre"
@@ -388,7 +391,14 @@ export default function MemoraLanding() {
           <div className="gallery__card gallery__card--5"></div>
           <div className="gallery__card gallery__card--6"></div>
         </div>
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="section__text-center">
           <span className="section__supertitle section__supertitle--red">
             UN RÉCAPITULATIF DE VOTRE VOYAGE
@@ -477,7 +487,10 @@ export default function MemoraLanding() {
           </div>
           <div className="footer__section">
             <h3>Prototype</h3>
-            <a href="#" className="footer__link">
+            <a
+              href="https://www.figma.com/design/7d3o2Hc4jRR0fSONzMg7cX/Memora?node-id=47-183&t=duv0QMuqSy8LblTP-1"
+              className="footer__link"
+            >
               Voir sur Figma →
             </a>
           </div>
