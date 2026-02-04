@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memora - Application mobile de voyage immersive centrée sur le storytelling, la mémoire et l'émotion.">
+    <title>Memora | Voyagez. Vivez. Racontez.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Navigation principale">
+        <div class="nav__logo">
+            <a href="#hero" aria-label="Retour à l'accueil">Memora</a>
+        </div>
+        <button class="nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav__links">
+            <li><a href="#concept">Concept</a></li>
+            <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+            <li><a href="#maquette">Maquette</a></li>
+            <li><a href="#demarche">Démarche</a></li>
+            <li><a href="#analyse">Analyse</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section section--hero" data-screen="1">
+            <div class="section__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">Memora</h1>
+                    <p class="hero__tagline">Voyagez. Vivez. Racontez.</p>
+                    <p class="hero__description">
+                        Une application mobile immersive qui transforme vos voyages 
+                        en récits sensibles, où chaque souvenir devient une histoire 
+                        à partager.
+                    </p>
+                    <a href="#concept" class="btn btn--primary">Découvrir</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phone Mockup Container (Sticky) -->
+        <div class="phone-container">
+            <div class="phone">
+                <div class="phone__notch"></div>
+                <div class="phone__screen">
+                    <!-- Screen images will be loaded here -->
+                    <img src="assets/screen-01.png" alt="Écran Memora - Accueil" class="phone__image active" data-screen="1">
+                    <img src="assets/screen-02.png" alt="Écran Memora - Concept" class="phone__image" data-screen="2">
+                    <img src="assets/screen-03.png" alt="Écran Memora - Fonctionnalités" class="phone__image" data-screen="3">
+                    <img src="assets/screen-04.png" alt="Écran Memora - Maquette" class="phone__image" data-screen="4">
+                    <img src="assets/screen-05.png" alt="Écran Memora - Démarche" class="phone__image" data-screen="5">
+                    <img src="assets/screen-06.png" alt="Écran Memora - Analyse" class="phone__image" data-screen="6">
+                    <img src="assets/screen-07.png" alt="Écran Memora - Conclusion" class="phone__image" data-screen="7">
+                    <img src="assets/screen-08.png" alt="Écran Memora - Final" class="phone__image" data-screen="8">
+                </div>
+            </div>
+        </div>
+
+        <!-- Scrollable Content Sections -->
+        <div class="sections-wrapper">
+            <!-- Concept Section -->
+            <section id="concept" class="section section--text" data-screen="2">
+                <div class="section__content">
+                    <span class="section__label">01 — Le Concept</span>
+                    <h2 class="section__title">Un carnet de voyage numérique</h2>
+                    <p class="section__text">
+                        Memora réinvente le carnet de voyage pour l'ère numérique. 
+                        Plus qu'une simple application de photos, c'est un espace 
+                        de récit sensible où chaque destination devient une histoire.
+                    </p>
+                    <p class="section__text">
+                        L'application met l'accent sur la <strong>rencontre interculturelle</strong>, 
+                        la <strong>mémoire émotionnelle</strong> et le <strong>partage authentique</strong>. 
+                        Chaque voyage raconte quelque chose d'unique.
+                    </p>
+                    <ul class="section__list">
+                        <li>Récits personnels et intimes</li>
+                        <li>Connexion aux lieux et aux personnes</li>
+                        <li>Partage choisi et respectueux</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Fonctionnalités Section -->
+            <section id="fonctionnalites" class="section section--text" data-screen="3">
+                <div class="section__content">
+                    <span class="section__label">02 — Fonctionnalités</span>
+                    <h2 class="section__title">Raconter, découvrir, se souvenir</h2>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 6v12m-6-6h12"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature__title">Raconter</h3>
+                            <p class="feature__text">
+                                Textes, photos, lieux géolocalisés. 
+                                Composez vos récits avec une liberté totale.
+                            </p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature__title">Carte interactive</h3>
+                            <p class="feature__text">
+                                Visualisez vos voyages sur une carte du monde. 
+                                Chaque point raconte une histoire.
+                            </p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature__title">Recommandations</h3>
+                            <p class="feature__text">
+                                Découvrez les coups de cœur locaux partagés 
+                                par la communauté de voyageurs.
+                            </p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature__title">Carnet intime</h3>
+                            <p class="feature__text">
+                                Un espace personnel pour vos souvenirs. 
+                                Partageable si vous le souhaitez.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Maquette Section -->
+            <section id="maquette" class="section section--text" data-screen="4">
+                <div class="section__content">
+                    <span class="section__label">03 — Maquette</span>
+                    <h2 class="section__title">Parcours utilisateur</h2>
+                    <p class="section__text">
+                        De l'onboarding à la création de récits, chaque écran 
+                        a été pensé pour une expérience fluide et intuitive.
+                    </p>
+                    
+                    <div class="screens-grid">
+                        <div class="screen-card">
+                            <span class="screen-card__number">01</span>
+                            <h4 class="screen-card__title">Onboarding</h4>
+                            <p class="screen-card__text">Accueil et présentation de l'application</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">02</span>
+                            <h4 class="screen-card__title">Découvrir</h4>
+                            <p class="screen-card__text">Explorer les récits par émotions et thèmes</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">03</span>
+                            <h4 class="screen-card__title">Carte</h4>
+                            <p class="screen-card__text">Navigation interactive sur le globe</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">04</span>
+                            <h4 class="screen-card__title">Récit</h4>
+                            <p class="screen-card__text">Lecture immersive d'une histoire</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">05</span>
+                            <h4 class="screen-card__title">Recommandations</h4>
+                            <p class="screen-card__text">Coups de cœur locaux partagés</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">06</span>
+                            <h4 class="screen-card__title">Créer</h4>
+                            <p class="screen-card__text">Composition d'un nouveau récit</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">07</span>
+                            <h4 class="screen-card__title">Carnet</h4>
+                            <p class="screen-card__text">Espace personnel de souvenirs</p>
+                        </div>
+                        <div class="screen-card">
+                            <span class="screen-card__number">08</span>
+                            <h4 class="screen-card__title">Profil</h4>
+                            <p class="screen-card__text">Identité et paramètres du voyageur</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Démarche Section -->
+            <section id="demarche" class="section section--text" data-screen="5">
+                <div class="section__content">
+                    <span class="section__label">04 — Démarche</span>
+                    <h2 class="section__title">Intentions & processus</h2>
+                    
+                    <div class="approach">
+                        <div class="approach__block">
+                            <h3 class="approach__subtitle">Intentions graphiques</h3>
+                            <ul class="approach__list">
+                                <li><strong>Sobriété</strong> — Laisser respirer le contenu</li>
+                                <li><strong>Photo immersive</strong> — Les images au premier plan</li>
+                                <li><strong>Typographie élégante</strong> — Lisibilité et caractère</li>
+                                <li><strong>Palette naturelle</strong> — Couleurs inspirées des paysages</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="approach__block">
+                            <h3 class="approach__subtitle">Intentions techniques</h3>
+                            <ul class="approach__list">
+                                <li><strong>Prototype Figma</strong> — Maquettes haute fidélité</li>
+                                <li><strong>Interactions discrètes</strong> — Animations subtiles</li>
+                                <li><strong>Mobile-first</strong> — Conception responsive</li>
+                                <li><strong>Performance</strong> — Chargement optimisé des médias</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analyse Section -->
+            <section id="analyse" class="section section--text" data-screen="6">
+                <div class="section__content">
+                    <span class="section__label">05 — Analyse</span>
+                    <h2 class="section__title">Retour critique</h2>
+                    
+                    <div class="analysis">
+                        <div class="analysis__block">
+                            <h3 class="analysis__subtitle">Écarts intention / réalisation</h3>
+                            <p class="section__text">
+                                L'ambition initiale d'intégrer une IA pour suggérer 
+                                des récits similaires a été reportée. La carte 3D 
+                                interactive a été simplifiée en vue 2D pour des 
+                                raisons de performance mobile.
+                            </p>
+                        </div>
+                        
+                        <div class="analysis__block">
+                            <h3 class="analysis__subtitle">Contraintes rencontrées</h3>
+                            <ul class="approach__list">
+                                <li>Gestion de la vie privée et du partage sélectif</li>
+                                <li>Optimisation des images pour le mobile</li>
+                                <li>Synchronisation offline des récits</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="analysis__block">
+                            <h3 class="analysis__subtitle">Améliorations envisagées</h3>
+                            <ul class="approach__list">
+                                <li>Export PDF du carnet de voyage</li>
+                                <li>Mode collaboratif pour voyages en groupe</li>
+                                <li>Intégration de podcasts audio de récits</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conclusion Section -->
+            <section id="conclusion" class="section section--text" data-screen="7">
+                <div class="section__content">
+                    <span class="section__label">06 — Conclusion</span>
+                    <h2 class="section__title">Ce que Memora apporte</h2>
+                    <p class="section__text">
+                        Memora propose une approche différente du voyage connecté : 
+                        moins de performance, plus de sensibilité. Un espace où 
+                        le temps long du récit reprend ses droits face à l'instantanéité 
+                        des réseaux sociaux.
+                    </p>
+                    <blockquote class="quote">
+                        "Chaque voyage mérite d'être raconté. 
+                        Chaque souvenir mérite de durer."
+                    </blockquote>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer" data-screen="8">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h3 class="footer__title">Compétences mobilisées</h3>
+                <ul class="footer__list">
+                    <li>UX/UI Design</li>
+                    <li>Prototypage Figma</li>
+                    <li>Design System</li>
+                    <li>Recherche utilisateur</li>
+                    <li>Design d'interaction</li>
+                </ul>
+            </div>
+            
+            <div class="footer__section">
+                <h3 class="footer__title">Prototype</h3>
+                <a href="#" class="btn btn--secondary" aria-label="Voir le prototype Figma (lien placeholder)">
+                    Voir sur Figma
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="footer__section">
+                <p class="footer__credit">
+                    Projet réalisé dans le cadre d'un chef-d'œuvre
+                </p>
+                <p class="footer__year">2024</p>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <p>Memora — Voyagez. Vivez. Racontez.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
