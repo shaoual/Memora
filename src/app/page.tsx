@@ -271,9 +271,9 @@ export default function MemoraLanding() {
           }}
         >
           <h1 className="hero__title">
-            Une seule appli de voyage
+            Une seule application
             <br />
-            pour toutes vos aventures
+            pour raconter tous vos voyages
           </h1>
           <p className="hero__subtitle">
             Rejoignez des millions de voyageurs qui planifient,
