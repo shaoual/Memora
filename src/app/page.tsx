@@ -210,7 +210,17 @@ export default function MemoraLanding() {
             <a href="#" className="nav__link">
               Connexion
             </a>
-            <button className="nav__cta">Obtenir l&apos;appli</button>
+            <button
+              className="nav__cta"
+              onClick={() =>
+                window.open(
+                  "https://www.figma.com/design/7d3o2Hc4jRR0fSONzMg7cX/Memora?node-id=47-183&t=duv0QMuqSy8LblTP-1",
+                  "_blank",
+                )
+              }
+            >
+              Obtenir l&apos;appli
+            </button>
             <button
               className="nav__menu"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
