@@ -506,7 +506,7 @@ export default function MemoraLanding() {
           </div>
           <div className="footer__section">
             <p>Projet réalisé dans le cadre d&apos;un chef-d&apos;œuvre</p>
-            <p className="footer__year">2024</p>
+            <p className="footer__year">2026</p>
           </div>
         </div>
         <div className="footer__bottom">
